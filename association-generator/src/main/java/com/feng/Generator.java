@@ -150,7 +150,7 @@ public class Generator {
         return new DataSourceConfig().setDbType(DbType.MYSQL)
                 .setUrl(dbUrl)
                 .setUsername("root")
-                .setPassword("")
+                .setPassword("123456")
                 .setDriverName("com.mysql.jdbc.Driver");
     }
 
